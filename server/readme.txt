@@ -1,0 +1,1 @@
+create the .env file in server folder 
