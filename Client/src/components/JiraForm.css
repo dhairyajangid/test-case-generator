@@ -1,0 +1,98 @@
+/* src/components/JiraForm.css */
+.jira-form-container {
+    background-color: #f4f5f7;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .jira-form-container h2 {
+    color: #172b4d;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .jira-form {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #172b4d;
+  }
+  
+  .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dfe1e6;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 15px;
+    resize: vertical;
+  }
+  
+  .form-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .submit-button, .clear-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .submit-button {
+    background-color: #0052CC;
+    color: white;
+  }
+  
+  .submit-button:hover {
+    background-color: #0747A6;
+  }
+  
+  .clear-button {
+    background-color: #ebecf0;
+    color: #172b4d;
+  }
+  
+  .clear-button:hover {
+    background-color: #dfe1e6;
+  }
+  
+  .example-section {
+    margin-top: 30px;
+    border-top: 1px solid #dfe1e6;
+    padding-top: 20px;
+  }
+  
+  .example-section h3 {
+    color: #172b4d;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  .example-ticket {
+    background-color: #ffffff;
+    border: 1px solid #dfe1e6;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 14px;
+  }
+  
+  .example-ticket p {
+    margin: 8px 0;
+  }
+  
+  .example-ticket ul {
+    margin: 8px 0;
+    padding-left: 20px;
+  }
