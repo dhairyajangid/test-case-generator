@@ -6,9 +6,9 @@ Create the .env file for the api fatching, take the api from the OpenAI and put 
 
 # To run the project localy
 give cmd on both folder /server and /Client
-**"npm install"**
+**`npm install`**
 then run this cmd on both folder /server and /Client
-**"npm run dev"**
+**`npm run dev`**
 
 ### 1. Create `.env` Files
 
