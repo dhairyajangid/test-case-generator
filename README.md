@@ -9,3 +9,15 @@ give cmd on both folder /server and /Client
 **"npm install"**
 then run this cmd on both folder /server and /Client
 **"npm run dev"**
+
+### 1. Create `.env` Files
+
+You need to create `.env` files manually in both the `Client` and `server` folders.
+
+- Get your API key from [OpenAI](https://platform.openai.com/account/api-keys)
+- Add the API key to:
+
+  - `Client/.env`
+  - `server/.env`
+
+Example `.env` content:
